@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss"
+  ],
+  "rules": {
+    "selector-class-pattern": null,
+    "no-invalid-double-slash-comments": null,
+    "comment-whitespace-inside": null,
+    "no-descending-specificity": null,
+    "declaration-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested"
+        ],
+        "ignore": [
+          "after-comment",
+          "after-declaration"
+        ]
+      }
+    ],
+    "custom-property-pattern": null,
+    "font-family-name-quotes": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global"]
+      }
+    ]
+  }
+}
